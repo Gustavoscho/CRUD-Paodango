@@ -18,7 +18,7 @@
     $name = $_POST['nome'];
     $email = $_POST['email'];
 
-    $sql = " INSERT INTO usuarios (name,email) VALUE ('$name','$email')";
+    $sql = " INSERT INTO clientes (name,email) VALUE ('$name','$email')";
 
     if ($conn->query($sql) === true) {
         echo "Novo registro criado com sucesso.";

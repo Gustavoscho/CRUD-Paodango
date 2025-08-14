@@ -3,7 +3,7 @@
 include 'db.php';
 $id = $_GET['id'];
 
-$sql = " DELETE FROM usuarios WHERE id=$id ";
+$sql = " DELETE FROM clientes WHERE id=$id ";
 
 if ($conn->query($sql) === true) {
     echo "Registro excluído com sucesso.

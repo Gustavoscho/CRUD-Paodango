@@ -12,7 +12,7 @@
 
 include 'db.php';
 
-$sql = "SELECT * FROM usuarios";
+$sql = "SELECT * FROM clientes";
 
 $result = $conn->query($sql);
 
