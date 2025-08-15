@@ -8,7 +8,7 @@
 </head>
 
 <body>
-
+    <link rel="stylesheet" href="style.css">
     <?php
 
     include 'db.php';
@@ -46,7 +46,7 @@
         </div>
     </form>
 
-    <a href="read.php">Ver pedidos</a>
+    <a href="readUsuario.php">Ver pedidos</a>
 
 </body>
 
