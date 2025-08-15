@@ -22,11 +22,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name = $_POST['nome'];
     $email = $_POST['email'];
 
-    $sql = "UPDATE clientes SET name ='$name',email ='$email' WHERE id=$id";
+    $sql = "UPDATE usuarios SET name ='$name',email ='$email' WHERE id=$id";
 
     if ($conn->query($sql) === true) {
         echo "Registro atualizado com sucesso.
-        <a href='read.php'>Ver registros.</a>
+        <a href='readUsuario.php'>Ver registros.</a>
         ";
     } else {
         echo "Erro " . $sql . '<br>' . $conn->error;
@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     exit(); 
 }
 
-$sql = "SELECT * FROM clientes WHERE id=$id";
+$sql = "SELECT * FROM usuarios WHERE id=$id";
 $result = $conn -> query($sql);
 $row = $result -> fetch_assoc();
 
@@ -53,7 +53,7 @@ $row = $result -> fetch_assoc();
 
     </form>
 
-    <a href="read.php">Ver registros.</a>
+    <a href="readUsuario.php">Ver registros.</a>
 
 </body>
 

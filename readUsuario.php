@@ -38,8 +38,8 @@ if ($result->num_rows > 0) {
                 <td> {$row['telefone']} </td>
                 <td> {$row['data_contratacao']} </td>
                 <td> 
-                    <a href='update.php?id={$row['id']}'>Editar<a>
-                    <a href='delete.php?id={$row['id']}'>Excluir<a>
+                    <a href='updateUsuario.php?id={$row['id']}'>Editar<a>
+                    <a href='deleteUsuario.php?id={$row['id']}'>Excluir<a>
                 
                 </td>
               </tr>   
@@ -52,7 +52,7 @@ if ($result->num_rows > 0) {
 
 $conn -> close();
 
-echo "<a href='create.php'>Inserir novo Registro</a>";
+echo "<a href='escolha.php'>Inserir novo Registro</a>";
 
 ?>
 
