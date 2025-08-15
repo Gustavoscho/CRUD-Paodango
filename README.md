@@ -12,9 +12,9 @@ Catálogo de Produtos: Visualização de todos os produtos disponíveis para com
 ## Para Usuários (Administradores)
 Inclui todas as funcionalidades de visualização disponíveis para clientes, além de:
 
-### Cadastro de Produtos: Interface dedicada para adicionar novos produtos ao catálogo do sistema, com um formulário para inserir detalhes como nome, preço e descrição.
+Cadastro de Produtos: Interface dedicada para adicionar novos produtos ao catálogo do sistema, com um formulário para inserir detalhes como nome, preço e descrição.
 
-### Gestão de Produtos: Visualização da lista completa de produtos cadastrados, com permissão para editar ou remover itens.
+Gestão de Produtos: Visualização da lista completa de produtos cadastrados, com permissão para editar ou remover itens.
 
 ## Tecnologias Utilizadas
 HTML5: Estrutura da aplicação.
