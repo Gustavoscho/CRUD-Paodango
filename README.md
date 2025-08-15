@@ -31,9 +31,9 @@ MySQL
 ### Login
 Acesse o site com seu perfil correspondente:
 
-### Cliente: Acesso focado na compra e acompanhamento de pedidos.
+Cliente: Acesso focado na compra e acompanhamento de pedidos.
 
-### Usuário: Acesso total às funcionalidades, incluindo o gerenciamento completo do catálogo de produtos.
+Usuário: Acesso total às funcionalidades, incluindo o gerenciamento completo do catálogo de produtos.
 
 ## Navegação
 Após acessar a página inicial, escolha seu perfil para ser redirecionado ao Menu Principal.
