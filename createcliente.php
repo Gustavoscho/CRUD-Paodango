@@ -46,7 +46,7 @@
         </div>
     </form>
 
-    <a href="read.php">Ver pedidos</a>
+    <a href="readCliente.php">Ver pedidos</a>
 
 </body>
 
