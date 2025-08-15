@@ -12,7 +12,7 @@
 
 include 'db.php';
 
-$sql = "SELECT * FROM clientes";
+$sql = "SELECT * FROM usuarios";
 
 $result = $conn->query($sql);
 
@@ -23,7 +23,8 @@ if ($result->num_rows > 0) {
             <th> ID </th>
             <th> Nome </th>
             <th> Email </th>
-            <th> Data de Criação </th>
+            <th> Telefone </th>
+            <th> Data de contratação </th>
             <th> Ações </th>
         </tr>
          ";
@@ -34,7 +35,8 @@ if ($result->num_rows > 0) {
                 <td> {$row['id']} </td>
                 <td> {$row['nome']} </td>
                 <td> {$row['email']} </td>
-                <td> {$row['created_at']} </td>
+                <td> {$row['telefone']} </td>
+                <td> {$row['data_contratacao']} </td>
                 <td> 
                     <a href='update.php?id={$row['id']}'>Editar<a>
                     <a href='delete.php?id={$row['id']}'>Excluir<a>
@@ -45,12 +47,12 @@ if ($result->num_rows > 0) {
     }
     echo "</table>";
 } else {
-    echo "Nenhum pedido encontrado.";
+    echo "Nenhum registro encontrado.";
 }
 
 $conn -> close();
 
-echo "<a href='create.php'>Inserir novo pedido</a>";
+echo "<a href='create.php'>Inserir novo Registro</a>";
 
 ?>
 
