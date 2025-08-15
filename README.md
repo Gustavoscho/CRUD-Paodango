@@ -5,9 +5,9 @@ Este projeto é uma aplicação web simples e funcional voltada para Clientes e 
 ## Para Clientes
 Catálogo de Produtos: Visualização de todos os produtos disponíveis para compra.
 
-### Criação de Pedidos: Interface para selecionar produtos, adicioná-los ao carrinho e finalizar um novo pedido.
+Criação de Pedidos: Interface para selecionar produtos, adicioná-los ao carrinho e finalizar um novo pedido.
 
-### Acompanhamento de Pedidos: Acesso ao histórico de pedidos realizados, com seus respectivos status e detalhes.
+Acompanhamento de Pedidos: Acesso ao histórico de pedidos realizados, com seus respectivos status e detalhes.
 
 ## Para Usuários (Administradores)
 Inclui todas as funcionalidades de visualização disponíveis para clientes, além de:
