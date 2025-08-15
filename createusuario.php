@@ -1,3 +1,12 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
 
     <?php
@@ -9,7 +18,7 @@
     $name = $_POST['nome'];
     $email = $_POST['email'];
 
-    $sql = " INSERT INTO clientes (name,email) VALUE ('$name','$email')";
+    $sql = " INSERT INTO produtos (name,email) VALUE ('$name','$email')";
 
     if ($conn->query($sql) === true) {
         echo "Novo pedido criado com sucesso.";
