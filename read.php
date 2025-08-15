@@ -45,12 +45,12 @@ if ($result->num_rows > 0) {
     }
     echo "</table>";
 } else {
-    echo "Nenhum registro encontrado.";
+    echo "Nenhum pedido encontrado.";
 }
 
 $conn -> close();
 
-echo "<a href='create.php'>Inserir novo Registro</a>";
+echo "<a href='create.php'>Inserir novo pedido</a>";
 
 ?>
 

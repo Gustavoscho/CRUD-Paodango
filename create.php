@@ -21,7 +21,7 @@
     $sql = " INSERT INTO clientes (name,email) VALUE ('$name','$email')";
 
     if ($conn->query($sql) === true) {
-        echo "Novo registro criado com sucesso.";
+        echo "Novo pedido criado com sucesso.";
     } else {
         echo "Erro " . $sql . '<br>' . $conn->error;
     }
@@ -32,18 +32,21 @@
     <div id="navbar">Padaria Paodango</div>
     
     <form method="POST" action="create.php" id="formulario">
+        <div>
+            <div id="itens">
+                <label for="pf">Pão Francês</label>
+                <input type="number" name="pf">
+            </div>
+            <div id="itens">
+                <label for="bolo">Bolo de chocolate</label>
+                <input type="number" name="bolo">
+            </div>
 
-        <label for="name">Nome:</label>
-        <input class="inputs" type="text" name="nome" required>
-
-        <label for="email">Email:</label>
-        <input type="email" name="email" required>
-
-        <input type="submit" value="Adicionar">
-
+            <input type="submit" value="Adicionar" id="submit">
+        </div>
     </form>
 
-    <a href="read.php">Ver registros.</a>
+    <a href="read.php">Ver pedidos</a>
 
 </body>
 
